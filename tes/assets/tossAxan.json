@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Is this the first time you've met?",
+    "choices": [
+      {
+        "value": "We go back to childhood.",
+        "correct": false
+      },
+      {
+        "value": "Astonishingly, yes.",
+        "correct": true
+      },
+      {
+        "value": "They're in my immediate family...",
+        "correct": false
+      },
+      {
+        "value": "We've met a couple times.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Is this the first time you've thought about tossing a xanax in their mouth?",
+    "choices": [
+      {
+        "value": "I generally want to toss a xanax into the mouths of everyone to whom I speak.",
+        "correct": false
+      },
+      {
+        "value": "Yes, but only because I've blocked out every other time I've had a conversation with them.",
+        "correct": true
+      },
+      {
+        "value": "I'd never waste my hard earned xanax on this fool. There's a reason why it's been prescribed to me.",
+        "correct": false
+      },
+      {
+        "value": "Why would anyone choose to drug someone?",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Are they nice?",
+    "choices": [
+      {
+        "value": "I guess if you're into toxic relationships.",
+        "correct": false
+      },
+      {
+        "value": "Absolutely Lovely!",
+        "correct": true
+      },
+      {
+        "value": "Meh",
+        "correct": false
+      },
+      {
+        "value": "Define Nice?",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is their body language saying to you?",
+    "choices": [
+      {
+        "value": "They could possibly spontaneously combust at any given moment.",
+        "correct": false
+      },
+      {
+        "value": "Sloth like",
+        "correct": true
+      },
+      {
+        "value": "Fluid, friendly and open",
+        "correct": false
+      },
+      {
+        "value": "I can't see them right now, were on the phone.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Do you feel the urge to slap them in the face?",
+    "choices": [
+      {
+        "value": "Took every ounce to hold me back.",
+        "correct": true
+      },
+      {
+        "value": "Those types of thoughts don't enter my mind.",
+        "correct": false
+      },
+      {
+        "value": "They were so pleasant to be around, I cannot wait to see them again!",
+        "correct": false
+      },
+      {
+        "value": "If I could digitally deliver it, I would.",
+        "correct": false
+      }
+    ]
+  }
+]

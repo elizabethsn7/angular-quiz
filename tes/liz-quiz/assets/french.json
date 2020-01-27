@@ -1,0 +1,128 @@
+[
+  {
+    "label": "What is Hello in french?",
+    "choices": [
+      {
+        "value": "Au revoir",
+        "correct": false
+      },
+      {
+        "value": "Bonjour",
+        "correct": true
+      },
+      {
+        "value": "Tant pis",
+        "correct": false
+      },
+      {
+        "value": "Salut!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is Goodbye in french?",
+    "choices": [
+      {
+        "value": "Au revoir",
+        "correct": true
+      },
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "Tant pis",
+        "correct": false
+      },
+      {
+        "value": "Salut!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is Yes in french?",
+    "choices": [
+      {
+        "value": "Oui",
+        "correct": true
+      },
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "Tant pis",
+        "correct": false
+      },
+      {
+        "value": "Salut!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is No in french?",
+    "choices": [
+      {
+        "value": "Oui",
+        "correct": false
+      },
+      {
+        "value": "Non",
+        "correct": true
+      },
+      {
+        "value": "Merci",
+        "correct": false
+      },
+      {
+        "value": "Salut!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is Thank you in french?",
+    "choices": [
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "Fille",
+        "correct": false
+      },
+      {
+        "value": "Merci",
+        "correct": true
+      },
+      {
+        "value": "Au revoir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is Thank you in french?",
+    "choices": [
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "Fille",
+        "correct": false
+      },
+      {
+        "value": "Merci",
+        "correct": true
+      },
+      {
+        "value": "Au revoir",
+        "correct": false
+      }
+    ]
+  }
+]
