@@ -1,0 +1,17 @@
+<!-- *ngIf="question" directive only renders the element it applies to -->
+<div class="quiz" *ngIf="question">
+  <!-- Line below is how the question is rendered -->
+  <!-- The {{}} is interpolation which is kind of a 1 way binding -->
+  <h2>{{ question.label }}</h2>
+  <form [formGroup]="form">
+    <div class="form-group">
+      <!-- the ngFor directive allows you to loop over a collection inside of the template - using it to render as many radio buttons as there are choices in the question -->
+      <label *ngFor="let choice of question.choices" class="answerChoices">
+        <br />
+        <input type="radio" [value]="choice" formControlName="choice" />
+
+        {{ choice.value }}
+      </label>
+    </div>
+  </form>
+</div>

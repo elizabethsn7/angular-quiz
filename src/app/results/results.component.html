@@ -1,0 +1,19 @@
+<div class="results">
+  <h2>Results</h2>
+  <div
+    class="answer"
+    *ngFor="let a of answers.values"
+    [ngClass]="{ correct: a.correct }"
+  >
+    <span class="answer-values">
+      {{ a.value }}
+    </span>
+
+    <span class="guide">
+      {{ a.correct }}
+    </span>
+  </div>
+  <button mat-raised-button color="primary">
+    <a routerLink="/welcome">Choose another quiz</a>
+  </button>
+</div>

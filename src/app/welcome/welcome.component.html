@@ -1,0 +1,38 @@
+<div class="tool-bar-container">
+  <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="center">
+    <span>
+      <h1>A Super Duper Scalable Angular Quiz!</h1>
+    </span>
+  </div>
+</div>
+
+<div
+  fxLayout="row wrap"
+  fxLayout.lt-sm="column"
+  fxLayoutGap="20px"
+  fxLayoutAlign="center"
+>
+  <mat-card
+    *ngFor="let q of quiz"
+    class="quiz-card"
+    fxFlex="0 1 calc(33.3% - 20px)"
+    fxFlex.lt-md="0 1 calc(50% - 20px)"
+    fxFlex.lt-sm="100%"
+  >
+    <mat-card-header>
+      <mat-card-title>{{ q.label }}</mat-card-title>
+    </mat-card-header>
+    <img
+      mat-card-image
+      src="https://i.imgur.com/oKUsUUU.jpg"
+      alt="question mark"
+    />
+    <mat-card-content>{{ q.description }}</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary">
+        <a routerLink="/{{ q.name }}">Pick Me!</a>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+  <!-- </mat-grid-list> -->
+</div>
