@@ -103,26 +103,5 @@
         "correct": false
       }
     ]
-  },
-  {
-    "label": "What is Thank you in french?",
-    "choices": [
-      {
-        "value": "Bonjour",
-        "correct": false
-      },
-      {
-        "value": "Fille",
-        "correct": false
-      },
-      {
-        "value": "Merci",
-        "correct": true
-      },
-      {
-        "value": "Au revoir",
-        "correct": false
-      }
-    ]
   }
 ]
