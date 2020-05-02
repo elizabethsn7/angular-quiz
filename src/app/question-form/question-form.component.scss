@@ -1,5 +1,14 @@
 @import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
 
-.answerChoices {
-  font-size: 1.25em;
+// .answerChoices {
+
+// }
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.example-radio-button {
+  margin: 5px;
 }
