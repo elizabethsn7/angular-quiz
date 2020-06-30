@@ -1,7 +1,10 @@
 <div class="tool-bar-container">
   <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="center">
     <span>
-      <h1>A Super Duper Scalable Angular Quiz!</h1>
+      <h1>
+        A Super Duper Scalable <br />
+        Angular Quiz!
+      </h1>
     </span>
   </div>
 </div>
@@ -17,7 +20,8 @@
     class="quiz-card"
     fxFlex="0 1 calc(33.3% - 20px)"
     fxFlex.lt-md="0 1 calc(50% - 20px)"
-    fxFlex.lt-sm="100%"
+    fxFlex.lt-sm="80%"
+    fxFlexAlign.lt-sm="center"
   >
     <mat-card-header>
       <mat-card-title>{{ q.label }}</mat-card-title>
